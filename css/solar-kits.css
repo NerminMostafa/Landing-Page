@@ -1,0 +1,64 @@
+@import url('general_style.css');
+
+.solar-kits {
+    text-align: center;
+    margin: auto;
+}
+
+.kits-container {
+    display: flex;
+    gap: 32px;
+}
+
+.kit {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.kit-content {
+    text-align: left;
+    padding: 20px;
+}
+
+.solar-kits h2 {
+    font-weight: 600;
+}
+
+.solar-kits p {
+    line-height: 24px;
+    padding: 30px 160px;
+}
+
+.kit-content h3 {
+    font-weight: 600;
+}
+
+.kit-content p {
+    padding: 20px 0;
+    /* overflow: hidden;    
+    white-space:nowrap;
+    text-overflow: ellipsis; */
+}
+
+.solar-kits h2,
+.kit-content h3 {
+    color: var(--dark-color);
+}
+
+.solar-kits p,
+.kit-content p {
+    color: var(--p-color);
+}
+
+.kit-content a,
+i {
+    color: var(--second-color);
+    font-weight: 600;
+}
+
+.kit-content i {
+    cursor: pointer;
+    margin-left: 5px;
+}

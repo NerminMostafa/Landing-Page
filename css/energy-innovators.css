@@ -1,0 +1,93 @@
+@import url('general_style.css');
+
+.energy-innovators {
+    background-color: #FFBB1C0D;
+}
+
+.energy-innovators-content {
+    display: flex;
+    margin: auto;
+    max-width: 1200px;
+}
+
+.innovators {
+    text-align: left;
+    max-width: 32%;
+    margin-right: 30px;
+}
+
+.innovators p {
+    letter-spacing: 0.55px;
+    color: var(--p-color);
+}
+
+.icon {
+    background-color: #3CAB90;
+    border: solid 10px rgba(255, 255, 255, 0.8);
+    width: 80px;
+    height: 80px;
+    border-radius: 20px;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.fa-bolt {
+    color: var(--white-color);
+    font-size: 28px;
+}
+
+.innovators h2 {
+    margin: 20px 0;
+    color: var(--dark-color);
+}
+
+.innovators-containers {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: center;
+}
+
+.card {
+    flex: 1 1 calc(45% - 15px);
+    border-radius: 8px;
+    margin: 8px;
+    max-width: 400px;
+    display: flex;
+    flex-direction: column;
+    height: auto;
+
+}
+
+.card .card-content {
+    background-color: rgba(60, 171, 144, 0.05);
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+    flex: 0;
+}
+
+.card-content .logo img {
+    mix-blend-mode: multiply;
+    border-radius: 8px;
+    width: 100%;
+    height: auto;
+}
+
+.card-content i {
+    margin-left: 5px;
+}
+
+.integration-container {
+    cursor: pointer;
+    margin: 5px;
+}
+
+.integration-container a {
+    color: var(--second-color);
+    font-weight: 600;
+}
+
+u {
+    text-decoration: underline;
+}

@@ -1,0 +1,77 @@
+@import url('general_style.css');
+
+.friendliest {
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.friendliest-content {
+    max-width: 49%;
+}
+
+.friendliest-content h1 {
+    font-weight: 600;
+    line-height: 56px;
+    color: var(--dark-color);
+    margin-bottom: 20px;
+}
+
+.friendliest-content p {
+    max-width: 97%;
+    line-height: 24px;
+    color: var(--p-color);
+    margin-bottom: 40px;
+}
+
+.friendliest-content .list {
+    list-style: none;
+}
+
+.friendliest-content .list li {
+    line-height: 28px;
+    color: var(--dark-color);
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+
+.friendliest-content .list li span {
+    font-family: "Akazan Lt";
+    font-weight: 700;
+    color: #8AC040;
+    margin-right: 10px;
+    letter-spacing: 3px;
+}
+
+.friendliest-img {
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.yellow-card {
+    position: absolute;
+    width: 230px;
+    height: 165px;
+    padding: 20px;
+    background-color: var(--yellow-color);
+    border-radius: 10px;
+    bottom: 10%;
+    right: 55%;
+}
+
+.yellow-card img {
+    width: 120px;
+    height: 100px;
+    margin-right: 10px;
+}
+
+.yellow-card p {
+    font-family: "Akazan Rg";
+    line-height: 1.3;
+    color: var(--textcolor-of-yellow);
+    margin: 25px 10px;
+    letter-spacing: 1px;
+}

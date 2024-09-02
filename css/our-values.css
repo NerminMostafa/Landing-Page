@@ -1,0 +1,53 @@
+@import url('general_style.css');
+
+.our-values {
+    text-align: center;
+    margin: auto;
+}
+
+.values-container {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+}
+
+.value {
+    max-width: 358.67px;
+    display: flex;
+    flex-direction: column;
+}
+
+.value .card-content {
+    flex: 1;
+}
+
+.card-content img {
+    margin: 15px 0;
+}
+
+.our-values h2 {
+    font-weight: 600;
+}
+
+.our-values p {
+    line-height: 24px;
+    padding: 30px 160px;
+}
+
+.card-content h3 {
+    font-weight: 600;
+}
+
+.card-content p {
+    padding: 20px 0;
+}
+
+.our-values h2,
+.card-content h3 {
+    color: var(--dark-color);
+}
+
+.our-values p,
+.card-content p {
+    color: var(--p-color);
+}

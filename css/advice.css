@@ -1,0 +1,36 @@
+@import url('general_style.css');
+
+.bg3 {
+    background-image: url("../images/3.png");
+}
+
+.advice {
+    height: 100%;
+    display: flex;
+    margin: auto;
+    align-items: center;
+}
+
+.advice-content {
+    max-width: 60%;
+}
+
+.advice h1 {
+    color: var(--white-color);
+    font-weight: 600;
+    line-height: 56px;
+}
+
+.advice p {
+    line-height: 24px;
+    color: var(--white-color);
+    margin: 20px 0;
+    letter-spacing: 1px;
+    max-width: 90%;
+}
+
+.advice .btn-call {
+    background-color: var(--yellow-color);
+    color: var(--textcolor-of-yellow);
+    margin-top: 10px;
+}

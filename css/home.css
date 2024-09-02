@@ -1,0 +1,71 @@
+@import url('general_style.css');
+
+.home {
+    height: 100vh;
+    width: 100%;
+    background-image: url("../images/1.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.home-content {
+    position: absolute;
+    width: 50%;
+    height: 50%;
+    top: 10%;
+    left: 10%;
+    text-align: left;
+    color: var(--white-color);
+}
+
+.slider-indicators {
+    display: flex;
+    align-items: center;
+}
+
+.slider-indicators hr {
+    width: 19vw;
+    height: 4px;
+    background: linear-gradient(to right, #ffffff 40%, #575757 40%);
+    border: none;
+    margin-left: 40px;
+    margin-right: 20px;
+}
+
+.home-content h1 {
+    font-size: 3.7vw;
+    letter-spacing: 0.095vw;
+    font-weight: 600;
+    margin-top: 7vw;
+}
+
+.home-content p {
+    font-weight: 600;
+    line-height: 1.5em;
+    margin-top: 20px;
+    letter-spacing: 1.1px;
+    color: var(--white-color);
+}
+
+.btn {
+    height: 41px;
+    margin-top: 35px;
+    border-radius: 50px;
+    letter-spacing: 1px;
+    border: none;
+    cursor: pointer;
+}
+
+.btn-call {
+    background-color: var(--second-color);
+    color: var(--white-color);
+    margin-right: 20px;
+    width: 173px;
+}
+
+.btn-request {
+    background-color: var(--yellow-color);
+    color: var(--textcolor-of-yellow);
+    width: 208px;
+}
